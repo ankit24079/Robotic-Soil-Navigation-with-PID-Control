@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "proj_pkg" type = "obstacle_avoidance.py" name = "obstacle_pub_node" />
+    <node pkg = "proj_pkg" type = "pid_control.py" name = "pid_pub_node" />
+</launch>
